@@ -3,7 +3,11 @@
 The Firebase Cloud Messaging Android Quickstart app demonstrates registering an Android app for notifications and handling the receipt of a message. InstanceID allows easy registration while FirebaseMessagingService and FirebaseInstanceIDService enable token refreshes and message handling on the client.
 This projects contains python scripts necessary to send diffrent types of messages to registered clients.
 
+<!--
 <img src="https://github.com/Aramideh/FireBase-Cloud-Messaging/blob/master/appView.jpg" alt="Image of Application" width="252" height="448">
+-->
+
+![FCM Demo](https://github.com/Aramideh/FireBase-Cloud-Messaging/blob/master/demo.gif)
 
 
 ### Getting Started
