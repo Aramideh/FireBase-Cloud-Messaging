@@ -38,7 +38,7 @@ print result
 run the saved file from command prompt and if everything is OK, you will see the notification on the client screen.
 
 
-* ****SERVER_KEY:*****
+* ****SERVER_KEY:****
 you can get your SERVER_KEY from firebase console. go to the project setting in firebase console and from Cloud Messaging tab get your SERVER_KEY
 
 
