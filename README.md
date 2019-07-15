@@ -22,11 +22,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 You can send messages to the clients with these ways:
 
-* Use Firebase console to send FCM messages to device or emulator.
- go to the firebase console and start sending messages to the clients.
+* Use Firebase console to send FCM messages to device or emulator, go to the firebase console and start sending messages to the clients.
 
 * Using Pyfcm
-visit https://pypi.org/project/pyfcm/ to instal pyfcm. create a file and copy below code.
+visit https://pypi.org/project/pyfcm/ to install pyfcm. then create a file and copy the code provided in below in the file.
 
 ```
 from pyfcm import FCMNotification
