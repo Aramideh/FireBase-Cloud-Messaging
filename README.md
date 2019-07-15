@@ -12,9 +12,14 @@ This projects contains python scripts necessary to send clients diffrent types o
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Sending Notifications
-* Use Firebase console to send FCM messages to device or emulator.
-* after installing pyfcm you can use below code to send message to the client
 
+you can send messages to the clients with these two ways:
+
+* Use Firebase console to send FCM messages to device or emulator.
+just go to the firebase console and start sending messages to the clients.
+
+* Using Pyfcm
+visit https://pypi.org/project/pyfcm/ to instal pyfcm. create a file and copy below code.
 
 ```
 from pyfcm import FCMNotification
@@ -27,6 +32,8 @@ result = push_service.notify_single_device(registration_id=registration_id, mess
 
 print result
 ```
+
+run the saved file from command prompt. you will see the notification on the client screen.
 
 
 * SERVER_KEY:
