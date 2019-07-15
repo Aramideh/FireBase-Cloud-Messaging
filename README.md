@@ -39,13 +39,13 @@ run the saved file from command prompt and if everything is OK, you will see the
 
 
 * ****SERVER_KEY:****
-you can get your SERVER_KEY from firebase console. go to the project setting in firebase console and from Cloud Messaging tab get your SERVER_KEY
+You can get your SERVER_KEY from firebase console, go to the project setting in firebase console and from Cloud Messaging tab get your SERVER_KEY
 
 
 
 
 * ****SREGISTERATION_TOKEN:****
-this token will be created the first time app installs on the android device, you can get this token from the Log in android studio or clicking on the token button in the app will show it to you.
+This token will be created the first time the app installs on an android device, you can get this token from the log in android studio or clicking on the token button in the app will show it to you.
 
 
 
