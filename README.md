@@ -52,7 +52,7 @@ this token will be created the first time app installs on the android device, yo
 
 ### Authors
 
-* **Sadeq Aramideh** - [Aramideh](https://github.com/Aramideh)
+* [**Sadeq Aramideh**](https://github.com/Aramideh)
 
 
 
