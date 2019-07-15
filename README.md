@@ -3,6 +3,8 @@
 The Firebase Cloud Messaging Android Quickstart app demonstrates registering an Android app for notifications and handling the receipt of a message. InstanceID allows easy registration while FirebaseMessagingService and FirebaseInstanceIDService enable token refreshes and message handling on the client.
 This projects contains python scripts necessary to send diffrent types of messages to registered clients.
 
+
+
 ### Getting Started
 
 * [Add Firebase to your Android Project.](https://firebase.google.com/docs/android/setup)
@@ -35,13 +37,16 @@ print result
 
 run the saved file from command prompt and if everything is OK, you will see the notification on the client screen.
 
-
-* SERVER_KEY:
+```
+#####*SERVER_KEY:
 you can get your SERVER_KEY from firebase console. go to the project setting in firebase console and from Cloud Messaging tab get your SERVER_KEY
+```
 
 
-* REGISTERATION_TOKEN:
+```
+#####*REGISTERATION_TOKEN:
 this token will be created the first time app installs on the android device, you can get this token from the Log in android studio or clicking on the token button in the app will show it to you.
+```
 
 
 
@@ -49,9 +54,13 @@ this token will be created the first time app installs on the android device, yo
 
 * **Sadeq Aramideh** - [Aramideh](https://github.com/Aramideh)
 
+
+
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
 
 ### Acknowledgments
 * [Firebase Cloud Messaging Quickstart](https://github.com/firebase/quickstart-android/tree/master/messaging)
