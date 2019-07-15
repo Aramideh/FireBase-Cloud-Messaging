@@ -26,7 +26,7 @@ message_body = "Hi, your message body goes here!"
 result = push_service.notify_single_device(registration_id=registration_id, message_title=message_title, message_body=message_body)
 
 print result
-
+```
 
 ```
 * SERVER_KEY:
