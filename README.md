@@ -1,7 +1,7 @@
 ## Java based Firebase Cloud Messaging (FCM) Quickstart & Python client for FCM
 
 The Firebase Cloud Messaging Android Quickstart app demonstrates registering an Android app for notifications and handling the receipt of a message. InstanceID allows easy registration while FirebaseMessagingService and FirebaseInstanceIDService enable token refreshes and message handling on the client.
-This projects contains python scripts necessary to send clients diffrent types of messages.
+This projects contains python scripts necessary to send diffrent types of messages to registered clients.
 
 ### Getting Started
 
@@ -13,42 +13,41 @@ These instructions will get you a copy of the project up and running on your loc
 
 #### Sending Notifications
 
-you can send messages to the clients with these two ways:
+You can send messages to the clients with these ways:
 
 * Use Firebase console to send FCM messages to device or emulator.
-just go to the firebase console and start sending messages to the clients.
+ go to the firebase console and start sending messages to the clients.
 
 * Using Pyfcm
 visit https://pypi.org/project/pyfcm/ to instal pyfcm. create a file and copy below code.
 
 ```
 from pyfcm import FCMNotification
-
-push_service = FCMNotification(api_key="SERVER_KEY")
-registration_id = "REGISTERATION_TOKEN"
-message_title = "your title"
-message_body = "Hi, your message body goes here!"
-result = push_service.notify_single_device(registration_id=registration_id, message_title=message_title, message_body=message_body)
+  push_service = FCMNotification(api_key="SERVER_KEY")
+  registration_id = "REGISTERATION_TOKEN"
+  message_title = "your title"
+  message_body = "Hi, your message body goes here!"
+  result = push_service.notify_single_device(registration_id=registration_id, 
+  message_title=message_title, message_body=message_body)
 
 print result
 ```
 
-run the saved file from command prompt. you will see the notification on the client screen.
+run the saved file from command prompt and if everything is OK, you will see the notification on the client screen.
 
 
 * SERVER_KEY:
-you can get your SERVER_KEY from firebase consol, go to the project setting and from Cloud Messaging tab get copy your SERVER_KEY
+you can get your SERVER_KEY from firebase console. go to the project setting in firebase console and from Cloud Messaging tab get your SERVER_KEY
 
 
 * REGISTERATION_TOKEN:
-this token will be created the first time app installs on the device, you can get this token from the Log in android studio or t
-with clicking on the token button in the app
+this token will be created the first time app installs on the android device, you can get this token from the Log in android studio or clicking on the token button in the app will show it to you.
 
 
 
 ### Authors
 
-* **Sadeq Aramideh** - *Initial work* - [Aramideh](https://github.com/Aramideh)
+* **Sadeq Aramideh** - [Aramideh](https://github.com/Aramideh)
 
 ### License
 
