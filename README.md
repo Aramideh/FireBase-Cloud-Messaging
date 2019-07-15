@@ -7,7 +7,7 @@ This projects contains python scripts necessary to send diffrent types of messag
 <img src="https://github.com/Aramideh/FireBase-Cloud-Messaging/blob/master/appView.jpg" alt="Image of Application" width="252" height="448">
 -->
 
-![FCM Demo](https://github.com/Aramideh/FireBase-Cloud-Messaging/blob/master/demo.gif)
+![FCM Demo](https://github.com/Aramideh/FireBase-Cloud-Messaging/blob/master/Demo.gif)
 
 
 ### Getting Started
