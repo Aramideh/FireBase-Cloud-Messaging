@@ -1,9 +1,9 @@
-# Java based Firebase Cloud Messaging (FCM) Quickstart & Python client for FCM
+## Java based Firebase Cloud Messaging (FCM) Quickstart & Python client for FCM
 
 The Firebase Cloud Messaging Android Quickstart app demonstrates registering an Android app for notifications and handling the receipt of a message. InstanceID allows easy registration while FirebaseMessagingService and FirebaseInstanceIDService enable token refreshes and message handling on the client.
 This projects contains python scripts necessary to send clients diffrent types of messages.
 
-## Getting Started
+### Getting Started
 
 * [Add Firebase to your Android Project.](https://firebase.google.com/docs/android/setup)
 * Run the sample on Android device or emulator.
@@ -11,7 +11,7 @@ This projects contains python scripts necessary to send clients diffrent types o
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Sending Notifications
+#### Sending Notifications
 
 you can send messages to the clients with these two ways:
 
@@ -46,15 +46,15 @@ with clicking on the token button in the app
 
 
 
-## Authors
+### Authors
 
 * **Sadeq Aramideh** - *Initial work* - [Aramideh](https://github.com/Aramideh)
 
-## License
+### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+### Acknowledgments
 * [Firebase Cloud Messaging Quickstart](https://github.com/firebase/quickstart-android/tree/master/messaging)
 * [DimitarStoyanoff/Notifications](https://github.com/DimitarStoyanoff/Notifications)
 * [PyFCM](https://pypi.org/project/pyfcm/)
