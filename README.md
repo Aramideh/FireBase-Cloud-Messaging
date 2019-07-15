@@ -37,16 +37,16 @@ print result
 
 run the saved file from command prompt and if everything is OK, you will see the notification on the client screen.
 
-```
-*SERVER_KEY:
+
+#### *SERVER_KEY:
 you can get your SERVER_KEY from firebase console. go to the project setting in firebase console and from Cloud Messaging tab get your SERVER_KEY
-```
 
 
-```
-*REGISTERATION_TOKEN:
+
+
+##### *REGISTERATION_TOKEN:
 this token will be created the first time app installs on the android device, you can get this token from the Log in android studio or clicking on the token button in the app will show it to you.
-```
+
 
 
 
