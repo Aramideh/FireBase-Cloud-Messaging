@@ -4,7 +4,7 @@ The Firebase Cloud Messaging Android Quickstart app demonstrates registering an 
 This projects contains python scripts necessary to send diffrent types of messages to registered clients.
 
 
-![Image of Application](https://github.com/Aramideh/FireBase-Cloud-Messaging/blob/master/appView.jpg)
+![Image of Application](https://github.com/Aramideh/FireBase-Cloud-Messaging/blob/master/appView.jpg =252x448)
 
 ### Getting Started
 
