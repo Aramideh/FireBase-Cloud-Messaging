@@ -28,16 +28,15 @@ result = push_service.notify_single_device(registration_id=registration_id, mess
 print result
 ```
 
-```
+
 * SERVER_KEY:
 you can get your SERVER_KEY from firebase consol, go to the project setting and from Cloud Messaging tab get copy your SERVER_KEY
-```
 
-```
+
 * REGISTERATION_TOKEN:
 this token will be created the first time app installs on the device, you can get this token from the Log in android studio or t
 with clicking on the token button in the app
-```
+
 
 
 ## Authors
